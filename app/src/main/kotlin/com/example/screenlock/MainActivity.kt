@@ -170,7 +170,7 @@ class MainActivity : ComponentActivity() {
         }
 
         if (!isAccessibilityServiceEnabled()) {
-            Toast.makeText(this, "請開啟「ScreenLock」輔助功能", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "請開啟「mikaScreenlock」輔助功能", Toast.LENGTH_LONG).show()
             startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))
             return
         }
@@ -241,7 +241,7 @@ fun ScreenLockScreen(
             // App Icon Badge
             Image(
                 painter = painterResource(id = R.drawable.ic_app_logo),
-                contentDescription = "ScreenLock Icon",
+                contentDescription = "mikaScreenlock Icon",
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
                     .size(76.dp)
@@ -258,7 +258,7 @@ fun ScreenLockScreen(
 
             // Title
             Text(
-                text = "ScreenLock",
+                text = "mikaScreenlock",
                 style = MaterialTheme.typography.headlineMedium,
                 color = SoftTextPrimary
             )
