@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScreenLock</string>
+    <string name="description">音量下鍵快按兩下鎖定螢幕\n音量上鍵快按兩下解除鎖定</string>
+    <string name="btn_start">啟動 ScreenLock 服務</string>
+    <string name="action_lock_now">🔒 立即鎖定</string>
+    <string name="channel_name">ScreenLock 服務</string>
+    <string name="notification_title">ScreenLock 執行中</string>
+    <string name="notification_text">音量下×2 鎖定 / 音量上×2 解鎖</string>
+</resources>

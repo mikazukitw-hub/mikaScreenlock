@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ScreenLock" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/soft_background</item>
+        <item name="android:statusBarColor">@color/soft_background</item>
+        <item name="android:navigationBarColor">@color/soft_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
